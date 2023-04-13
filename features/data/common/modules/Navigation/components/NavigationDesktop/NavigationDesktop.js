@@ -32,7 +32,7 @@ const NavigationDesktop = () => {
             fontSize='0.8rem'
             fontWeight="meduim"
             textStyle="uppercase"
-            colorScheme="twitter"
+            colorScheme="green"
             > 
               CREATE LISTING
             </Button>
