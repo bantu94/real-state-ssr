@@ -1,8 +1,9 @@
-import { Box, Button, Flex, IconButton, Menu, MenuButton, MenuItem, MenuList, Text } from "@chakra-ui/react";
+import { HamburgerIcon } from '@chakra-ui/icons';
+
+import { Box, Flex, IconButton, Menu, MenuButton, MenuItem, MenuList, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import { HiHomeModern } from 'react-icons/hi2';
 import { navigationLinks } from "../../navigationConsts";
-import HamburgerIcon  from '@chakra-ui/icon';
 
 const NavigationMobile = () => {
     return (
