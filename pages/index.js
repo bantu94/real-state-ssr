@@ -1,11 +1,19 @@
-import Navigation from "@/features/data/common/modules/Navigation/Navigation";
-import Footer from "@/features/data/common/modules/Footer/Footer";
+import HeroBanner from "@/features/Home/components/HeroForm/HeroBanner";
+import FeaturedProperties from "@/features/Home/components/featuredProperties/featuredProperties";
+import DefaultLayout from "@/features/Layouts/DefaultLayout/DefaultLayout";
 
-export default function Home() {
+export default function Home({featuredProperties}) {
   return (
-    <>
-     <Navigation />
-     <Footer />
-    </>
+    <DefaultLayout> 
+      <HeroBanner/>
+      <FeaturedProperties featuredProperties={featuredProperties}/>
+    </DefaultLayout>
   )
+}
+
+export async function getStaticProps() {
+  const { hits } = require('@/features/data/properties')
+  return {
+    props: { featuredProperties: hits }
+  }
 }
