@@ -1,5 +1,6 @@
 import HeroBanner from "@/features/Home/components/HeroForm/HeroBanner";
-import FeaturedProperties from "@/features/Home/components/featuredProperties/featuredProperties";
+import FeaturedProperties from "@/features/Home/components/featuredProperties/FeaturedProperties";
+
 import DefaultLayout from "@/features/Layouts/DefaultLayout/DefaultLayout";
 
 export default function Home({featuredProperties}) {

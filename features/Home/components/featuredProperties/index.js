@@ -1,1 +1,1 @@
-export {default} from './featuredProperties';
+export {default} from './FeaturedProperties';
