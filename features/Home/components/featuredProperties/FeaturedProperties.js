@@ -11,23 +11,23 @@ const FeaturedProperties = ({ featuredProperties }) => {
         paddingY={{ base:"3rem", sm:"6rem" }}
       >
         <Text 
-        fontSize={{ base:"4xl", sm:"5xl" }}
-        lineHeight="shorter"
-        fontWeight="light"
-        paddingX="2rem"
-        textAlign="center"
+          fontSize={{ base:"4xl", sm:"5xl" }}
+          lineHeight="shorter"
+          fontWeight="light"
+          paddingX="2rem"
+          textAlign="center"
         >
           Discover Our Featured Properties
 
         </Text>
 
         <Text 
-        fontSize="2xl"
-        fontWeight="light"
-        marginTop="1rem"
-        marginBottom="3rem"
-        textAlign="center"
-        paddingX="2rem"
+          fontSize="2xl"
+          fontWeight="light"
+          marginTop="1rem"
+          marginBottom="3rem"
+          textAlign="center"
+          paddingX="2rem"
         >
           A selection of our best properties
 
