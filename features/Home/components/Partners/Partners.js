@@ -1,4 +1,4 @@
-import { Box, Image, SimpleGrid } from "@chakra-ui/react";
+import { Image, SimpleGrid } from "@chakra-ui/react";
 import { partners } from "./partnersConsts";
 const Partners = () => {
   return (

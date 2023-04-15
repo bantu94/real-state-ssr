@@ -62,7 +62,7 @@ const Footer = () => {
             </Text>
 
             <Text fontSize="xs" textAlign="center">
-              All Rights reserved - 2023 Copyright 
+              © 2023 Toito Inc. All rights reserved.
             </Text>
           </Box>
 
