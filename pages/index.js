@@ -9,7 +9,7 @@ import DefaultLayout from "@/features/Layouts/DefaultLayout/DefaultLayout";
 export default function Home({featuredProperties}) {
   return (
     <DefaultLayout> 
-      <HeroBanner/>
+      <HeroBanner />
       <FeaturedProperties featuredProperties={featuredProperties}/>
       <MeetTheTeam />
       <Partners />
