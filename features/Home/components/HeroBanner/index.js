@@ -1,1 +1,1 @@
-export {default} from '../HeroForm/HeroBanner';
+export {default} from './HeroBanner';

@@ -1,4 +1,4 @@
-import HeroBanner from "@/features/Home/components/HeroForm/HeroBanner";
+import HeroBanner from "@/features/Home/components/HeroBanner/HeroBanner";
 import Partners from "@/features/Home/components/Partners/Partners";
 import Testimonials from "@/features/Home/components/Testimonials/Testimonials";
 import FeaturedProperties from "@/features/Home/components/featuredProperties/FeaturedProperties";
